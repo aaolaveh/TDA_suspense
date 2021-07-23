@@ -1,0 +1,20 @@
+# We store the packages of Python and R used in the project
+#Python
+jupyter-client==6.1.7
+jupyter-core==4.6.3
+jupyterlab-pygments==0.1.2
+jupytext==1.6.0
+matplotlib==3.3.3
+nibabel==3.2.0
+nilearn==0.7.0
+numpy==1.20.2
+pandas==1.1.4
+ripser==0.6.0
+scikit-learn==0.23.2
+scipy==1.5.4
+
+#R
+label4MRI
+rjson        "R (>= 3.1.0)" 
+
+
