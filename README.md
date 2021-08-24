@@ -28,6 +28,7 @@ devtools::install_github("peekxc/simplextree@6e34926")
 
 Finally, som code was generated to make the Mapper graphs. f you find it helpful, consider putting the reference to this GitHub page.
 
+![Mapper graph](figures/chosen_mapper_time2_patches2.png)
 
 
 
