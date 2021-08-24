@@ -1,0 +1,22 @@
+ gui_Lobes = {
+            1: "R-Prefrontal",
+            2: "R-MotorStrip",
+            3: "R-Insula",
+            4: "R-Parietal",
+            5: "R-Temporal",
+            6: "R-Occipital",
+            7: "R-Limbic",
+            8: "R-Cerebellum",
+            9: "R-Subcortical",
+            10: "R-Brainstem",
+            11: "L-Prefrontal",
+            12: "L-MotorStrip",
+            13: "L-Insula",
+            14: "L-Parietal",
+            15: "L-Temporal",
+            16: "L-Occipital",
+            17: "L-Limbic",
+            18: "L-Cerebellum",
+            19: "L-Subcortical",
+            20: "L-Brainstem"
+        }
