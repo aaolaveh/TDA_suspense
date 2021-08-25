@@ -1,3 +1,6 @@
+#Generate 1000 samples of surrogate data using the function surrogate_dyn_corr
+#and varying the initial random state from 0 to 999
+
 import numpy as np
 import time
 import multiprocessing
@@ -5,7 +8,7 @@ from scipy.spatial.distance import squareform
 import some_functions
 from some_functions import surrogate_dyn_corr , phase_shift, dyn_corr_isc
 
-X=np.load("../Data/ts_data_regions.npy" )
+X=np.load("../Data/ts_data_regions.npy" ) 
 
 def surrogate_for_pool(rand):
 	print("Random state %s" % rand)
