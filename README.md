@@ -3,7 +3,7 @@ Analysis code for the master's thesis: Revealing brain network dynamics during t
 
 ## Dataset
 
-- Please note given the sharing-restrictions, the large size of some files and the limitation capacity in the repository do not allow us uploading the full data here. You can obtain the original data from the CamCan Consortium, request the extracted data from Prof <a href="https://github.com/rschmaelzle"> Schmaelzle</a> or Prof. <a href="https://github.com/claregrall"> Grall </a> or me and I can share extracted data too.
+- Please note given the sharing-restrictions, the large size of some files and the limitation capacity in the repository do not allow us uploading the full data here. You can obtain the original data from the CamCan Consortium, request the extracted data from Prof. <a href="https://github.com/rschmaelzle"> Schmaelzle</a> or Prof. <a href="https://github.com/claregrall"> Grall </a> or me and I can share extracted data too.
 - The results from most of the computations are in the /Data folder (except the metioned data)
 - Some files in the folder are taken from the [NITRC place of the Shen parcellation](https://www.nitrc.org/frs/?group_id=51), [the BioImage Suite Web](https://github.com/bioimagesuiteweb/bisweb) and the [Analysis for Schmälzle & Grall](https://github.com/nomcomm/CamCanSuspenseISC_JMP). Please give the corresponding credit.
 
