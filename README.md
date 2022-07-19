@@ -26,7 +26,7 @@ In addtion, Mapper construction relies on [simplextree](https://github.com/peekx
 devtools::install_github("peekxc/simplextree@6e34926")
 ```
 
-Finally, som code was generated to make the Mapper graphs. If you find it helpful, consider putting the reference to this GitHub page.
+Finally, some code was generated to make the Mapper graphs. If you find it helpful, consider putting the reference to this GitHub page.
 
 <p align="center">
     <img src="figures/chosen_mapper_time.png" alt="Mapper graph" width="400" />
