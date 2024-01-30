@@ -35,6 +35,7 @@ import json
 #      lobe, network and Brodmann area of region i
 
 import itertools as it
+import numpy as np
 
 
 #------------------ ball_set -----------------------

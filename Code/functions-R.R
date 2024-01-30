@@ -636,7 +636,7 @@ my_multi_with_colorbars<-function(fun_plot,plots=NULL,layout,colors,bars_per_lin
 # -
 #=====================================================================         
 #my_names is.Input:file. Output is a list
-#with 5 elements:  metric, filter, dist_file, pdf and title 
+#with 7 elements:  part, metric, filter, dist_file, file, pdf and title 
 my_names<-function(file){
     lista=list()
     file_sp=strsplit(file , '/',fixed=TRUE)[[1]]
@@ -657,6 +657,30 @@ my_names<-function(file){
     lista[["pdf"]]=paste("../Imagenes/mapper_graphs/mapper_",name,".pdf",sep="")
     
     lista[["title"]]=paste("Mapper for part = ",lista[["part"]],", metric=", lista[["metric"]],", filter =", lista[["filter"]])
+    return(lista)
+}
+
+#=====================================================================         
+#my_names2 is.Input:file. Output is a list
+#with 5 elements:   index, metric, filter, dist_file and file
+my_names2<-function(file){
+    lista=list()
+    file_sp=strsplit(file , '/',fixed=TRUE)[[1]]
+    path=paste0(file_sp[1:(length(file_sp)-2)],collapse='/')
+    name=file_sp[length(file_sp)]
+    name_sp=strsplit(name , '_',fixed=TRUE)[[1]] #split string 
+    lista[["index"]]=name_sp[1]
+    lista[["metric"]]=name_sp[2]
+    lista[["filter"]]=str_remove(name_sp[3],".npy")
+    name_file=paste0(name_sp[1:2],collapse='_')
+    lista[["dist_file"]]=paste(path,'/dists/',name_file,'.npy',sep="")
+    
+    name=str_replace(name_file,"Data/dists","mapper")
+    name=paste(name,"_",lista[["filter"]],sep="")
+    
+    lista[["file"]]=paste("../../../../Documentos/Mapper/Data/mapper/",name,".rds",sep="")
+    lista[["title"]]=paste("Mapper for index = ",lista[["index"]],", metric=", lista[["metric"]],", filter =", lista[["filter"]])
+
     return(lista)
 }
 
